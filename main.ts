@@ -66,7 +66,7 @@ async function readTextFile(file : string) {
 
     //console.log("finishing readTextFile");
 }
-await readTextFile("https://cors-anywhere.herokuapp.com/https://a.windbornesystems.com/treasure/00.json");
+await readTextFile("https://a.windbornesystems.com/treasure/00.json");
 //await readTextFile("data/wb_data.json");
 
 function setupBalloonData() {
