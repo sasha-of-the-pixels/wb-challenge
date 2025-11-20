@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+}
+
+p {
+    color:aliceblue;
+    margin: 10px;
+}
+
+a {
+    color:dodgerblue;
+}
+a:visited {
+    color:mediumpurple;
+}
+
+#coordsLabel {
+  position: absolute;
+  width: fit-content;
+  text-align: center;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  display:block;
+  cursor: default;
+}
+
+#loading {
+    color: aliceblue;
+    width: 200px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+#scene {
+    margin: auto;
+}
