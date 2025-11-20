@@ -7,6 +7,7 @@
     "webpack": "^5.103.0"
   },
   "devDependencies": {
-    "vite": "^7.1.12"
+    "vite": "^7.1.12",
+    "webpack-cli": "^6.0.1"
   }
 }
