@@ -36,7 +36,7 @@ const bigRadius = 100;
 async function readTextFile(file : string) {
     console.log("in readTextFile");
     return fetch(file, {
-        mode: 'cors',
+        //mode: 'cors',
         //credentials: 'include',
         // method: 'POST',
         // headers: new Headers({
